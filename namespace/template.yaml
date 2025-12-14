@@ -2,8 +2,8 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: orchestrator-namespace-request
-  title: OpenShift Namespace Request
-  description: Creates an OpenShift Namespace. Requires approval.
+  title: OpenShift Project Request
+  description: Creates an OpenShift Project. Requires approval for large sized projects.
   tags:
     - project
     - namespace
