@@ -3,7 +3,7 @@ kind: Template
 metadata:
   name: orchestrator-namespace-request
   title: OpenShift Namespace Request
-  description: Creates an OpenShift Namespae. Requires approval.
+  description: Creates an OpenShift Namespace. Requires approval.
   tags:
     - project
     - namespace
