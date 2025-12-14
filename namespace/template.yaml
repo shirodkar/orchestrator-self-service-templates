@@ -14,7 +14,7 @@ spec:
   owner: group:default/tssc
   type: project
   parameters:
-    - title: Provide Information about the OpenShift Namespace
+    - title: Provide Information about the OpenShift Project
       required:
         - component_id
         - namespace_owner
