@@ -55,7 +55,7 @@ spec:
           owner: ${{ parameters.namespace_owner }}
           namespace: ${{ parameters.component_id }}
           namespace_size: ${{ parameters.namespace_size }}
-          gitops_namespace: openshift-gitops
+          gitops_namespace: tssc-gitops
           gitops_project: default
           git_host: ${{ parameters.git_host }}
           git_destination: ${{ parameters.namespace_owner }}/${{ parameters.component_id }}-gitops
@@ -79,7 +79,7 @@ spec:
       input:
         appName: ${{ parameters.component_id }}-bootstrap
         argoInstance: cluster-argocd
-        namespace: openshift-gitops
+        namespace: tssc-gitops
         repoUrl: https://${{ parameters.git_host }}/${{ parameters.namespace_owner }}/${{ parameters.component_id }}-gitops.git
         path: 'argocd/'
 
